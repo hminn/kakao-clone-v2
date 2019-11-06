@@ -67,7 +67,8 @@ body {
 
 .bgrd-box {
   margin: -25px;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   overflow: hidden;
 }
 .image-background {
@@ -77,13 +78,13 @@ body {
   justify-content: center;
   width: 575px;
   height: 575px;
-  border-radius: 15px;
+  margin-top: -250px;
 }
-
 .bottom-box {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: -50px;
 }
 
 .avatar-image {
@@ -91,6 +92,7 @@ body {
   height: 100px;
   object-fit: cover;
   border-radius: 50%;
+  border: 3px solid white;
 }
 
 .name {
@@ -120,4 +122,5 @@ body {
   margin: 20px 20px;
   width: 200px;
   height: 50px;
+  border-radius: 15px;
 }
