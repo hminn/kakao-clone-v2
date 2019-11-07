@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Saira:400,700,800,900&display=swap");
+body {
+  font-family: "Saira", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #e7e9ed;
+  padding: 20px 10px;
+  height: 900px;
+  width: 500px;
+  position: relative;
+}
+
+.time {
+  font-weight: 700;
+}
+
+.main {
+  padding: 15px 30px;
+  border-radius: 30px;
+  height: 850px;
+  width: 400px;
+  background: linear-gradient(
+        to bottom,
+        rgba(240, 120, 100, 0.01) 0%,
+        #f8f9fa 45%
+      )
+      fixed,
+    url(https://scontent-gmp1-1.cdninstagram.com/vp/3c93f8d13cac3d641ae9bed02970ccaa/5E5A851E/t51.2885-15/sh0.08/e35/c0.175.1406.1406a/s640x640/74459093_150482136342941_7901215493986404442_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=105);
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 220px;
+}
+
+.header-bar i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.preview {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.preview-box {
+  color: white;
+  background-color: #3f67fb;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 5px;
+  border-radius: 15px;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+}
+
+.preview-box img {
+  height: 60px;
+  width: 60px;
+}
+
+.themes {
+  display: flex;
+}
+
+.theme {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #dbe1f6;
+  color: #3f67fb;
+  font-weight: 600;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.name-heart {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.heart {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fbe7a1;
+  color: red;
+}
+
+.address {
+  margin-bottom: 10px;
+}
+.address i {
+  color: #3561fb;
+}
+.address span {
+  margin-left: 3px;
+  font-size: 17px;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.review-distance {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.review i {
+  color: #ffbc2a;
+}
+.review span {
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.distance span {
+  font-size: 17px;
+  opacity: 0.5;
+}
+
+.overview {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.3;
+  margin-bottom: 3px;
+}
+
+.text {
+  font-size: 17px;
+  color: #6684be;
+  margin-bottom: 10px;
+}
+
+.readmore {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3f67fb;
+}
+
+.nav {
+  background-color: white;
+  margin-top: -70px;
+  position: absolute;
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  z-index: 3;
+}
+
+.right-column,
+.left-column {
+  display: flex;
+  width: 200px;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.right-column i,
+.left-column i:nth-child(2) {
+  opacity: 0.4;
+  font-size: 25px;
+}
+
+.left-column i:nth-child(3) {
+  font-size: 25px;
+  color: #3f67fb;
+}
+
+.mid-column {
+  position: relative;
+  z-index: 2;
+}
+.mid-icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f67fb;
+  color: white;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -43px;
+  left: -27px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 5px rgb(188, 197, 238);
+  cursor: pointer;
+}
+.mid-icon i {
+  font-size: 25px;
+}
+
+.left-column {
+  position: relative;
+}
+.left-bar {
+  background-color: #3f67fb;
+  right: 23px;
+  top: -10px;
+  width: 50px;
+  height: 2px;
+  position: absolute;
+}
+
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 68px;
+  left: 198px;
+  width: 90px;
+  height: 90px;
+  background-color: gainsboro;
+  opacity: 0.5;
+}
