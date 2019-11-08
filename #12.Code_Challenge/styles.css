@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Saira:400,700,800,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Saira";
+  background-color: #f9fafc;
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: #010d3c;
+  font-weight: 600;
+}
+
+.phone {
+  margin-top: 10px;
+  background-color: rgb(250, 250, 250);
+  width: 350px;
+  height: 680px;
+  border-radius: 40px;
+  box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45),
+    30px 30px 40px rgba(118, 146, 180, 0.18);
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+  background: rgb(241, 242, 246);
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+  padding: 30px 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header i,
+.header span {
+  font-size: 18px;
+}
+
+.popular-view {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.view {
+  font-size: 13px;
+  color: red;
+}
+
+.Recipes-pop {
+  margin: 15px 0px;
+}
+
+.column {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column__Recipe {
+  margin: 3px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 130px;
+  height: 85px;
+  background-color: blue;
+}
+
+.column:nth-child(1) .column__Recipe:nth-child(1) {
+  background: url(https://scontent-gmp1-1.cdninstagram.com/vp/811449885c8eb686ddff2f5503395bd8/5E423E36/t51.2885-15/sh0.08/e35/c0.180.1440.1440a/s640x640/73524885_724385814703353_3952285852278128690_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=1);
+  background-size: 130px 85px;
+  color: white;
+  box-shadow: 0px -35px 100px 0px rgb(150, 150, 150) inset;
+  background-repeat: no-repeat;
+}
+
+.column:nth-child(1) .column__Recipe:nth-child(2) {
+  background: url(https://scontent-gmp1-1.cdninstagram.com/vp/dff29c2b8dd4a84a8e0c0e630a8fbf08/5E3FD3BA/t51.2885-15/sh0.08/e35/c0.165.1440.1440a/s640x640/77026081_471825750357415_2185285974531840296_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=1);
+  background-size: 130px 85px;
+  color: white;
+  box-shadow: 0px -35px 100px 0px rgb(150, 150, 150) inset;
+  background-repeat: no-repeat;
+}
+
+.column:nth-child(2) .column__Recipe:nth-child(1) {
+  background: url(https://scontent-gmp1-1.cdninstagram.com/vp/eace0ce043efc05eb6eb9d8a30ffcc7c/5E65388E/t51.2885-15/sh0.08/e35/c0.180.1440.1440a/s640x640/74636013_701944083630977_1807782528529342627_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=1);
+  background-size: 130px 85px;
+  color: white;
+  box-shadow: 0px -1px 100px 0px rgb(150, 150, 150) inset;
+  background-repeat: no-repeat;
+}
+
+.column:nth-child(2) .column__Recipe:nth-child(2) {
+  background: url(https://scontent-gmp1-1.cdninstagram.com/vp/5e99c147b82d7d1ef32b1617b4ef0a3a/5E566455/t51.2885-15/sh0.08/e35/s640x640/72948827_2652886111400371_6742431500761041018_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_cat=107);
+  background-size: 130px 85px;
+  color: white;
+  box-shadow: 0px -35px 100px 0px rgb(150, 150, 150) inset;
+  background-repeat: no-repeat;
+}
+
+.other {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.Recipes__list {
+  list-style: none;
+}
+
+.Recipe {
+  background-color: white;
+  border-radius: 10px;
+  margin-left: -40px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+
+.Recipe__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Recipe__name {
+  font-weight: 700;
+}
+
+.Recipe__nums {
+  font-size: 11px;
+  opacity: 0.5;
+}
+
+.Recipe__box-column:nth-child(2) {
+  margin-top: 7px;
+  font-size: 14px;
+  color: red;
+}
+
+.tab-bar {
+  background-color: white;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding-bottom: 1px;
+  position: absolute;
+  box-shadow: 0px 3px 20px 3px rgb(201, 201, 201);
+}
+
+.tab-bar__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+.tab-bar__tab {
+  font-size: 21px;
+}
+
+.tab-bar__tab:nth-child(2) i {
+  color: red;
+}
