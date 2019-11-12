@@ -5,6 +5,11 @@
   border-bottom: 1px solid #f7f7f7;
 }
 
+.friends__list .friend__column:nth-child(1) .friend__avatar {
+  width: 40px;
+  height: auto;
+}
+
 .friends__plus .friends__title,
 .friends__list .friends__title {
   font-size: 14px;
